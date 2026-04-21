@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap");
+@import "tailwindcss";
+
+:root {
+  font-family: Inter, system-ui, -apple-system, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #ffd84d;
+  color: #1A1A1A;
+}
+
+.font-space {
+  font-family: "Space Grotesk", Inter, sans-serif;
+}
+
+.neo-card {
+  background: #ffffff;
+  border: 3px solid #111111;
+  border-radius: 18px;
+  box-shadow: 6px 6px 0 #111111;
+}
+
+.neo-input {
+  border: 3px solid #111111;
+  border-radius: 12px;
+  background: #ffffff;
+}
+
+.neo-btn {
+  border: 3px solid #111111;
+  border-radius: 12px;
+  font-weight: 800;
+  box-shadow: 3px 3px 0 #111111;
+  transition: transform 0.1s ease;
+}
+
+.neo-btn:active {
+  transform: translate(2px, 2px);
+}
+
+.sticker {
+  display: inline-block;
+  border: 3px solid #111111;
+  border-radius: 999px;
+  padding: 0.15rem 0.8rem;
+  font-weight: 800;
+  font-size: 0.75rem;
+}
